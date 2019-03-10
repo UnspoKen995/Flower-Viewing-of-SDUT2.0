@@ -1,0 +1,32 @@
+/* pages/map/map.wxss */
+#map{
+  width: 100vw;
+  height: 100vh;
+  
+}
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+
+.mapleft{
+  padding-left: 0;
+}
+.controls {
+  position: relative;
+  top: 5%;
+  height: 50px;
+  left: 85vw;
+  display: flex;
+}
+.img {
+  width: 40px;
+  height: 40px;
+  margin: 5px auto;
+}

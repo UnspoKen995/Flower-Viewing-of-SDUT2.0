@@ -1,0 +1,214 @@
+<!--pages/detail/detail.wxml-->
+<view class='page'>
+  <view class="page__bd">
+    <view class="weui-panel weui-panel_access">
+      <view class="weui-panel__hd">花种列表</view>
+      <view class="weui-panel__bd">
+
+        <navigator url="../map/map?id=0" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/连翘.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">连翘</view>
+            <view class="weui-media-box__desc">校园主要分布：东西秋色园、海棠园、鲁泰园、木兰园、绿岛、稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：3-4月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=1" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/荷花.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">荷花</view>
+            <view class="weui-media-box__desc">校园主要分布：图书馆北门荷花池、稷下湖景区等</view>
+            <view class="weui-media-box__desc">花期：6-9月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=2" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/寿星桃.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">寿星桃</view>
+            <view class="weui-media-box__desc">校园主要分布：碧桃园、鲁泰园、木兰园、东西秋色园、稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：3月下旬-4月中旬</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+      
+        <navigator url="../map/map?id=3" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/美人梅.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">美人梅</view>
+            <view class="weui-media-box__desc">校园主要分布：梅园、稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：3月中下旬-4月中旬</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=4" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/紫荆.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">紫荆</view>
+            <view class="weui-media-box__desc">校园主要分布：鲁泰园、东西秋色园、稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：3月下旬-4月中旬</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=5" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/垂丝海棠.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">垂丝海棠</view>
+            <view class="weui-media-box__desc">校园主要分布：海棠园、稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：3-4月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=6" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/丁香.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">丁香</view>
+            <view class="weui-media-box__desc">校园主要分布：丁香园、鲁泰园、西秋色园、稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：4-5月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+         <navigator url="../map/map?id=7" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/鸢尾.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">鸢尾</view>
+            <view class="weui-media-box__desc">校园主要分布：梅园、春色园、绿岛及稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：4-5月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=8" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/玉兰.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">玉兰</view>
+            <view class="weui-media-box__desc">校园主要分布：木兰园、梅园、5#教学楼内庭院、稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：3-4月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=9" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/西府海棠.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">西府海棠</view>
+            <view class="weui-media-box__desc">校园主要分布：海棠园，西秋色园、绿岛、稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：3-4月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=10" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/紫薇.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">紫薇</view>
+            <view class="weui-media-box__desc">校园主要分布：东西秋色园、绿岛、鲁泰园、海棠园、稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：6-9月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=11" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/樱花.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">樱花</view>
+            <view class="weui-media-box__desc">校园主要分布：鸿远楼两侧、东西秋色园、鲁泰园、北门樱花园</view>
+            <view class="weui-media-box__desc">花期：4-5月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=12" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/大花萱草.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">大花萱草</view>
+            <view class="weui-media-box__desc">校园主要分布：稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：7-8月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=13" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/杏梅.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">杏梅</view>
+            <view class="weui-media-box__desc">校园主要分布：梅园、稷下湖北侧</view>
+            <view class="weui-media-box__desc">花期：3月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=14" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/北美海棠.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">北美海棠</view>
+            <view class="weui-media-box__desc">校园主要分布：稷下湖景区</view>
+            <view class="weui-media-box__desc">花期：4月份</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=15" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/牡丹.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">牡丹</view>
+            <view class="weui-media-box__desc">校园主要分布：稷下湖景区牡丹园、1号、2号教学楼中间东西花坛</view>
+            <view class="weui-media-box__desc">花期：4月中下旬-5月上旬</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+
+        <navigator url="../map/map?id=16" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="../img/月季.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">月季</view>
+            <view class="weui-media-box__desc">校园主要分布：月季园（西秋色园内）、稷下湖及3#教学楼周围</view>
+            <view class="weui-media-box__desc">花期：5-10月</view>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>
